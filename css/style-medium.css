@@ -1,0 +1,9 @@
+
+nav {
+  	height: 80px;
+}
+
+#restaurants-list {
+	display: flex;
+	flex-wrap: wrap;
+}
