@@ -18,7 +18,7 @@ ul, li {
 	color: #333;
 }
 a {
-	color: orange;
+	color: #A6F0F2;
 	text-decoration: none;
 }
 a:hover, a:focus {
@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 0 20px;
 }
+
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -48,6 +49,12 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-align: center;
   text-transform: uppercase;
 }
+
+#footer a:hover,
+#footer a:focus {
+    background-color: #4C00FEFF;
+}
+
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
@@ -66,6 +73,12 @@ nav h1 a {
   letter-spacing: 10px;
   text-transform: uppercase;
 }
+
+nav h1 a:hover, 
+nav h1 a:focus {
+  color: #4C00FEFF;
+}
+
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
@@ -107,7 +120,7 @@ nav h1 a {
 .filter-options {
   width: 100%;
   height: 80px;
-  background-color: #3397DB;
+  background-color: #0F4061;
   align-items: center;
 }
 .filter-options h2 {
@@ -130,6 +143,18 @@ nav h1 a {
   width: 200px;
 }
 
+.filter-options h2:hover, 
+.filter-options h2:focus {
+    background-color: black ;
+}
+
+
+.filter-options select:hover,
+.filter-options select:focus {
+  box-shadow: 5px 10px 18px #141414FF;
+
+}
+
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
@@ -148,6 +173,12 @@ nav h1 a {
   text-align: left;
   width: 270px;
 }
+
+#restaurants-list li a:focus,
+#restaurants-list li a:hover {
+  background-color: #4C00FEFF;
+}
+
 #restaurants-list .restaurant-img {
   background-color: #ccc;
   display: block;
@@ -157,7 +188,7 @@ nav h1 a {
   min-width: 100%;
 }
 #restaurants-list li h1 {
-  color: #f18200;
+  color: #A32900;
   font-family: Arial,sans-serif;
   font-size: 14pt;
   font-weight: 200;
@@ -171,7 +202,7 @@ nav h1 a {
   font-size: 11pt;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #A32900;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -272,4 +303,18 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+/* ====================== Skip Link ====================== */
+
+.skip-link {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: -1000px;
+    background-color: white;
+    padding: 5px 10px;
+}
+.skip-link:focus {
+    left: 15px;
 }
