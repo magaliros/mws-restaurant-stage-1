@@ -18,7 +18,7 @@ self.addEventListener('install', function(event) {
         '/', // this caches index.html
         '/restaurant.html',
         '/css/styles.css',
-        '/css/styles-medium.css',,
+        '/css/styles-medium.css',
         '/css/styles-large.css',
         '/js/dbhelper.js',
         '/js/secret.js',
