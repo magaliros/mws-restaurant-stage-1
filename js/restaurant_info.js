@@ -41,7 +41,7 @@ initMap = () => {
         //  If app detects we're offline, set map as offline
         DBHelper.mapOffline();
       }
-      
+
       fillBreadcrumb();
       DBHelper.mapMarkerForRestaurant(self.restaurant, self.newMap);
     }

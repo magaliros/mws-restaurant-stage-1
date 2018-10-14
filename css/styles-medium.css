@@ -2,6 +2,11 @@ nav {
   	height: 80px;
 }
 
+.filter-options {
+  height: 80px;
+  display: flex;
+ }
+
 #restaurants-list {
 	display: flex;
 	flex-wrap: wrap;
