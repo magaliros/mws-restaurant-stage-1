@@ -167,9 +167,9 @@ nav h1 a:focus {
   background-color: #fff;
   border: 2px solid #ccc;
   font-family: Arial,sans-serif;
-  margin: 15px;
+  margin: 5px;
   min-height: 380px;
-  padding: 0 30px 25px;
+  padding: 0 5px 25px;
   text-align: left;
   width: 270px;
 }
@@ -216,7 +216,7 @@ nav h1 a:focus {
 
 /* ====================== Restaurant Details ====================== */
 .inside header {
-  position: fixed;
+  /*position: fixed;*/
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -271,8 +271,8 @@ nav h1 a:focus {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 140px 40px 30px;
-  width: 50%;
+  padding: 140px 15px 30px;
+  width: 100%;
 }
 #reviews-container {
   padding: 30px 40px 80px;
@@ -290,12 +290,12 @@ nav h1 a:focus {
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 20px 20px;
+  padding: 0 5px 20px;
   width: 75%;
 }
 #reviews-list li p {
