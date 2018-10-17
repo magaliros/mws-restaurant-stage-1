@@ -74,9 +74,10 @@ nav h1 a {
   text-transform: uppercase;
 }
 
-nav h1 a:hover, 
-nav h1 a:focus {
-  color: #4C00FEFF;
+nav h1 a:hover,
+nav h1 a:focus { 
+  color: #4C00FEFF; 
+  padding: 5px 10px;
 }
 
 #breadcrumb {
