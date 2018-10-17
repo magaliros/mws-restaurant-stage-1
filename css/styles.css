@@ -172,7 +172,7 @@ nav h1 a:focus {
   min-height: 380px;
   padding: 0 5px 25px;
   text-align: left;
-  width: 100%;
+  width: 270px;
 }
 
 #restaurants-list li a:focus,
@@ -237,7 +237,6 @@ nav h1 a:focus {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 100%;
 }
 #restaurant-name {
   color: #f18200;
@@ -300,6 +299,13 @@ nav h1 a:focus {
 }
 #reviews-list li p {
   margin: 0 0 10px;
+}
+p.reviews-name {
+  font-weight: bold;
+}
+p.reviews-date {
+  font-style: italic;
+  color: blue;
 }
 #restaurant-hours td {
   color: #666;

@@ -164,10 +164,12 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
 createReviewHTML = (review) => {
   const li = document.createElement('li');
   const name = document.createElement('p');
+  name.className = "reviews-name";
   name.innerHTML = review.name;
   li.appendChild(name);
 
   const date = document.createElement('p');
+  date.className = "reviews-date";
   date.innerHTML = review.date;
   li.appendChild(date);
 

@@ -11,3 +11,22 @@ nav {
 	display: flex;
 	flex-wrap: wrap;
 }
+
+.inside #footer {
+  width: 100%;
+}
+
+.inside header {
+  position: fixed;
+ }
+
+.inside #map-container {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+}
+
+#restaurant-container, #reviews-container {
+  padding: 40px 40px 30px;
+  width: 50%;
+}
