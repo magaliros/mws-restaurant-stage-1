@@ -1,3 +1,9 @@
+/**
+ * Thanks to Alexandro perez for his walkthrouhg 
+ * https://alexandroperez.github.io/mws-walkthrough/?1.1.introduction
+ */
+
+
 let restaurant;
 var newMap;
 
